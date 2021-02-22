@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FavoriteAnimals from '../FavoriteAnimals/FavoriteAnimals.component.jsx'
+import FavoriteCandy from '../FavoriteCandy/FavoriteCandy.component.jsx'
 import './StudentList.styles.css'
 
 
@@ -80,6 +81,7 @@ class StudentList extends Component {
         ))}
       
         <FavoriteAnimals allStudents={this.state}/>
+        <FavoriteCandy favCandy={this.state} />
       
       </div>
     )
