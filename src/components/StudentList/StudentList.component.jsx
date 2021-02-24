@@ -68,6 +68,7 @@ class StudentList extends Component {
       ]
     }
   }
+
   render(){
     return (
       <div>
@@ -79,7 +80,7 @@ class StudentList extends Component {
             </p>
           </div>
         ))}
-      
+
         <FavoriteAnimals allStudents={this.state}/>
         <FavoriteCandy favCandy={this.state} />
       
