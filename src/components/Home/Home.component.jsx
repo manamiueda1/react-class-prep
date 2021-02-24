@@ -1,8 +1,13 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const Home = () => {
     return (
-        <h1>Meet Nebula Academy's V3 Students</h1>
+        <div>
+            <Link to='/students'>Students</Link>
+            <h1>Meet Nebula Academy's V3 Students</h1>
+        </div>
+        
 
     )
 }
