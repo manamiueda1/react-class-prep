@@ -7,7 +7,7 @@ class Welcome extends Component {
     }
 
     render(){
-        // console.log(this.props)
+       
         let username = this.props.welcome
         
         return(
