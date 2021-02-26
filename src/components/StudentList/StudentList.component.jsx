@@ -5,8 +5,8 @@ import './StudentList.styles.css'
 
 
 class StudentList extends Component {
-  constructor(){
-    super();
+  constructor(props){
+    super(props);
     this.state = {
       studentData: [
         {

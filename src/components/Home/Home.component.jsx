@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div>
             <Link to='/students'>Students</Link>
-            <h1>Meet Nebula Academy's V3 Students</h1>
+            <h1>React V3 Notes </h1>
         </div>
         
 
