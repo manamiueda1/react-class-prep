@@ -6,6 +6,8 @@ import StudentList from "./components/StudentList/StudentList.component";
 import Form from "./components/Form/Form.component";
 import Welcome from "./components/Welcome/Welcome.component";
 import Search from "./components/Search/Search.component";
+import Application from "./components/list";
+import Game from "./components/tic";
 
 import "./App.css";
 
