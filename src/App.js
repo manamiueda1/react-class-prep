@@ -6,8 +6,7 @@ import StudentList from "./components/StudentList/StudentList.component";
 import Form from "./components/Form/Form.component";
 import Welcome from "./components/Welcome/Welcome.component";
 import Search from "./components/Search/Search.component";
-import Application from "./components/list";
-import Game from "./components/tic";
+import Movies from "./components/Movies/Movies.component";
 
 import "./App.css";
 
@@ -22,6 +21,7 @@ class App extends Component {
             <Route exact path="/form" component={Form} />
             <Route exact path="/welcome" component={Welcome} />
             <Route exact path="/search" component={Search} />
+            <Route exact path="/movies" component={Movies} />
           </Switch>
         </div>
       </Router>
