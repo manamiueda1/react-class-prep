@@ -7,6 +7,7 @@ import Form from "./components/Form/Form.component";
 import Welcome from "./components/Welcome/Welcome.component";
 import Search from "./components/Search/Search.component";
 import Movies from "./components/Movies/Movies.component";
+import SingleMovie from "./components/SingleMovie/SingleMovie.component";
 
 import "./App.css";
 
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path="/welcome" component={Welcome} />
             <Route exact path="/search" component={Search} />
             <Route exact path="/movies" component={Movies} />
+            <Route exact path="/movie/:id" component={SingleMovie} />
           </Switch>
         </div>
       </Router>
